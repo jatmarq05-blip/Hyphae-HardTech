@@ -1,0 +1,16 @@
+SET(SOURCES ui_comp_homebutton.c
+    ui_comp.c
+    ui_MainScreen.c
+    ui_Extruder1.c
+    ui_Blower1.c
+    ui_Scale1.c
+    ui_Puller1.c
+    ui_Winder1.c
+    ui_Pelletizer1.c
+    ui.c
+    ui_comp_hook.c
+    ui_helpers.c
+    ui_events.c
+    ui_img_1538227317.c)
+
+add_library(ui ${SOURCES})
