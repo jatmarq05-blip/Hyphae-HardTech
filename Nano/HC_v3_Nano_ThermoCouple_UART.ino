@@ -30,7 +30,7 @@ void loop()
 {
   if (Serial.available())
   {
-    String cmd = Serial.readStringUntil('\n');   // real newline, not '/n'
+    String cmd = Serial.readStringUntil('\n'); 
     cmd.trim();
 
     if (cmd == "<REQ_F>" || cmd == "<REQ_C>")

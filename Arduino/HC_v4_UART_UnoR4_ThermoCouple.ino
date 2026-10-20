@@ -106,7 +106,7 @@ void loop()
   if(WiFi.status() == WL_CONNECTED)
   ensureTCP();
 
-  //future Cel of Far button press.
+  //future Cel or Far button press.
   checkElecrowCommands;
   
   if(millis()-pollMS < 1000)
